@@ -33,6 +33,6 @@ s.source_files = "WAActionSheetController/**/*.{swift}"
 s.resources = "WAActionSheetController/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
-s.swift_version = "3.0"
+s.swift_version = "4.2"
 
 end
