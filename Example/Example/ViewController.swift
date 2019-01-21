@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         let alert = WAActionSheetController()
-        alert.addAction(title: "Test", titleTextColor: nil, titleFont: nil, icon: nil, iconColor: nil) { (action) in
-            print("hye")
+        alert.addAction(title: "Do Action", titleTextColor: nil, titleFont: nil, icon: nil, iconColor: nil) { (action) in
+            print("Clicked!")
         }
 
         alert.addSystemAction(title: "Cancel", style: .cancel, handler: nil)

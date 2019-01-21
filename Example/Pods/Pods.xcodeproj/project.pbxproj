@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,10 +16,10 @@
 		9DC1A4A29BCB4E47B4D0223053FFF268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 		AAFB9A5B5B7FD86EEA69002E2096ADB8 /* Pods-ExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 178A1843150C3D11C184358961C1DA00 /* Pods-ExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B88B897E19EBEDF4F3C279681B1202D0 /* WAActionSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22D93F903325852C255F45C63D49EF /* WAActionSheetController.swift */; };
-		C864ED1E21F610B900671AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864ED1D21F610B900671AD4 /* Main.storyboard */; };
 		D11A7F77D6C95591890DBA1AA7856329 /* WAActionSheetController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB85C5F63CA9F9D8844B7EC85D0C761 /* WAActionSheetController-dummy.m */; };
 		E726347D872CB121D8F169D01911A3CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 		F03B56A0259558473A71A5468B003B80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		F2259B5B8695A6B20253C8C58F96F542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A9C62A8C6EFD55F66CFC4DCFFA2A2 /* Main.storyboard */; };
 		F42E5A5F2E2AF9E30BC43A5C8A0AF33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 		F82AAC76D690A656AB8E6B10114C84F5 /* Pods-ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BB3904AF50B78447C7F11840C6A177 /* Pods-ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDD5BA7978FA7D99A5800928F043E07A /* WAActionSheetContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3693421172F4404E98D239F8AF421E2 /* WAActionSheetContentViewController.swift */; };
@@ -54,17 +54,17 @@
 		0A57D66A2933EA5A6D7D178297535313 /* Pods-ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		11CB9C3A434DEEE23F07EB5D4E031AFC /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		178A1843150C3D11C184358961C1DA00 /* Pods-ExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleTests-umbrella.h"; sourceTree = "<group>"; };
-		22470549FC9DC40B84B2136047791768 /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22470549FC9DC40B84B2136047791768 /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleTests.framework; path = "Pods-ExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259D3F060506B273EDCB15C0B0CBB0C0 /* Pods-ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3578C71528EC1DE86BBF841D8EFFEB9E /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3578C71528EC1DE86BBF841D8EFFEB9E /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		383BEEEF6B652EBAC793A07C05DCDCE4 /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B92E079A4B5B52CC99B057778779418 /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D6AFF93BE71819BC7AF0DC6111CD076 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4739B275C57837351B128A90F965DE61 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		4B2B490EC9B769813A0241C9B5317108 /* Pods_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2B490EC9B769813A0241C9B5317108 /* Pods_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleUITests.framework; path = "Pods-ExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1290DF0EBE5FCEC3EFA48DBDD351D0 /* WAActionSheetController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WAActionSheetController-umbrella.h"; sourceTree = "<group>"; };
-		5367ADB6C2434C3C85F8015C904EA797 /* WAActionSheetController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WAActionSheetController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5367ADB6C2434C3C85F8015C904EA797 /* WAActionSheetController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WAActionSheetController.framework; path = WAActionSheetController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD14273AD07C2BE95A632D5F86283E8 /* Pods-ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleUITests.modulemap"; sourceTree = "<group>"; };
 		667134F93CDFCBF0BF5232EA941A5311 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		718C19D45F63FBAF6139A8AEA689DE55 /* Pods-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -76,16 +76,16 @@
 		8FDDCC1D86FFB03D20B27F34F269524E /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
 		92C69274B0D2D8F0D98ACC4C8CA096B9 /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
 		9350974E8DE104B76358CBD62349E1C5 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FE963925409C0B01B1E401237E2F7F5 /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A07331F3C70EADDAB0FECB48522E2022 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		A3B1360207804EBFC8B18F6AD3BC3C92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A727F7F2C68AFEA6DFD8597F08931F82 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE72E6C045DE864B4327194AFF0CD477 /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B02A9C62A8C6EFD55F66CFC4DCFFA2A2 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = WAActionSheetController/Views/Main.storyboard; sourceTree = "<group>"; };
 		B2BB3904AF50B78447C7F11840C6A177 /* Pods-ExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleUITests-umbrella.h"; sourceTree = "<group>"; };
 		B7A5C5B6C5073DAAC675EE61691D29BA /* Pods-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C636DD6136609524DE666ECCA2F1AAFD /* Pods-ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleTests.modulemap"; sourceTree = "<group>"; };
-		C864ED1D21F610B900671AD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = WAActionSheetController/Views/Main.storyboard; sourceTree = "<group>"; };
 		CE21EF354702954F7A8C89E8FC389BB7 /* WAActionSheetController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WAActionSheetController.modulemap; sourceTree = "<group>"; };
 		CF22D93F903325852C255F45C63D49EF /* WAActionSheetController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WAActionSheetController.swift; path = WAActionSheetController/Controllers/WAActionSheetController.swift; sourceTree = "<group>"; };
 		D1C7D3544A56382BFAEC1C783A1D18C0 /* WAActionSheetController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WAActionSheetController.xcconfig; sourceTree = "<group>"; };
@@ -142,6 +142,14 @@
 				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		07D0F69AFEED21D6691F72D86A26369F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B02A9C62A8C6EFD55F66CFC4DCFFA2A2 /* Main.storyboard */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		152C4EACC580BC297C5FB3269631958C /* Support Files */ = {
@@ -247,9 +255,10 @@
 			children = (
 				D3693421172F4404E98D239F8AF421E2 /* WAActionSheetContentViewController.swift */,
 				CF22D93F903325852C255F45C63D49EF /* WAActionSheetController.swift */,
-				F98AC7B8F9A3EA9B99EF42F691C5B607 /* Resources */,
+				07D0F69AFEED21D6691F72D86A26369F /* Resources */,
 				152C4EACC580BC297C5FB3269631958C /* Support Files */,
 			);
+			name = WAActionSheetController;
 			path = WAActionSheetController;
 			sourceTree = "<group>";
 		};
@@ -269,14 +278,6 @@
 			);
 			name = "Pods-ExampleUITests";
 			path = "Target Support Files/Pods-ExampleUITests";
-			sourceTree = "<group>";
-		};
-		F98AC7B8F9A3EA9B99EF42F691C5B607 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C864ED1D21F610B900671AD4 /* Main.storyboard */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,7 +344,7 @@
 				04EF057D37BEE665655ABE0896BA91A3 /* Headers */,
 				512C3585966E1AD53DE4100F1A4B9C83 /* Sources */,
 				4AFB8E49B0385C27E07E7007125F2BCB /* Frameworks */,
-				2EC2203FD1F24AF8CADB422107428B6D /* Resources */,
+				3A5F9C93DC79DF8EAA2F065D546D0C81 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -422,10 +423,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2EC2203FD1F24AF8CADB422107428B6D /* Resources */ = {
+		3A5F9C93DC79DF8EAA2F065D546D0C81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2259B5B8695A6B20253C8C58F96F542 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +449,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C864ED1E21F610B900671AD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +530,11 @@
 				INFOPLIST_FILE = "Target Support Files/WAActionSheetController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/WAActionSheetController/WAActionSheetController.modulemap";
 				PRODUCT_MODULE_NAME = WAActionSheetController;
 				PRODUCT_NAME = WAActionSheetController;
@@ -627,7 +632,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExampleUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExampleUITests/Pods-ExampleUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -661,7 +670,11 @@
 				INFOPLIST_FILE = "Target Support Files/WAActionSheetController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/WAActionSheetController/WAActionSheetController.modulemap";
 				PRODUCT_MODULE_NAME = WAActionSheetController;
 				PRODUCT_NAME = WAActionSheetController;
@@ -694,7 +707,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -729,7 +746,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -800,7 +821,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -824,7 +846,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -859,7 +885,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -893,7 +923,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExampleUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExampleUITests/Pods-ExampleUITests.modulemap";
 				OTHER_LDFLAGS = "";
