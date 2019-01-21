@@ -1,0 +1,16 @@
+PODS:
+  - WAActionSheetController (0.1.1)
+
+DEPENDENCIES:
+  - WAActionSheetController
+
+SPEC REPOS:
+  https://github.com/AyusSalleh/WAActionSheetControllerPodSpecs:
+    - WAActionSheetController
+
+SPEC CHECKSUMS:
+  WAActionSheetController: 24cb3be83ea883601e100899846bd4c0d676299c
+
+PODFILE CHECKSUM: 4aead98a466e5f941519d79711190d658dec5014
+
+COCOAPODS: 1.5.3

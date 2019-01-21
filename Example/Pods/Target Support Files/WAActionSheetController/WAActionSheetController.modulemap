@@ -1,0 +1,6 @@
+framework module WAActionSheetController {
+  umbrella header "WAActionSheetController-umbrella.h"
+
+  export *
+  module * { export * }
+}
